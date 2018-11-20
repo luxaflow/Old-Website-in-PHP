@@ -1,0 +1,202 @@
+/* DEFAULT STYLES AND MAIN GENERAL STYLE CHANGES */
+body,
+html {
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.input-field .helper-text {
+  color: red !important;
+}
+
+/* NAVBAR */
+
+nav .brand-logo {
+  position: relative !important;
+}
+
+nav .button {
+  margin-left: 15px !important;
+}
+
+nav .button .btn {
+  width: 100% !important;
+}
+
+nav .row {
+  margin-bottom: 0 !important;
+}
+
+#main-menu-dropdown {
+  width: 100% !important;
+  left: 0 !important;
+  top: 60px !important;
+}
+
+#main-menu-dropdown .btn {
+  margin-top: 5px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  width: 100% !important;
+}
+
+.menu-dropdown-trigger h4 {
+  margin-top: 10px !important;
+}
+
+/* HOMEPAGE / INDEX */
+
+.section-index-banner {
+  min-height: 300px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.section-index-banner h2 {
+  margin-top: 80px !important;
+}
+
+.section-index-posts .card-singlepost {
+  max-height: 215px !important;
+  overflow: hidden;
+}
+
+.section-index-posts .row {
+  margin-bottom: 0 !important;
+}
+
+/* LOGIN AND REGISTER PAGES */
+
+.section-register,
+.section-login {
+  margin-top: 6% !important;
+  margin-bottom: 6% !important;
+}
+
+/* POSTS PAGE */
+
+.section-posts .btn-floating {
+  margin-top: 20px;
+}
+
+.top-pagination {
+  margin-top: 60px;
+}
+
+.post-by {
+  font-size: 0.8rem !important;
+  margin-top: 0 !important;
+  display: inline-block;
+}
+
+.section-posts .card-action .row {
+  margin-bottom: 0 !important;
+}
+
+.section-posts-add,
+.section-posts-view {
+  margin-top: 60px;
+}
+
+.section-posts-view,
+.section-posts-add {
+  min-height: 74%;
+}
+
+.section-posts-add .row,
+.section-posts-view .row {
+  margin-bottom: 0 !important;
+}
+
+/* FOOTER */
+
+.page-footer {
+  padding-top: 0;
+  bottom: 0 !important;
+  position: relative;
+}
+
+.page-footer .row,
+.footer-copyright p,
+.footer-copyright ul {
+  margin: 0 auto;
+}
+
+.footer-copyright .social-icons ul {
+  display: inline-block;
+}
+
+.footer-copyright .social-icons li {
+  display: inline;
+  padding-left: 7px;
+}
+
+/* TODOS */
+
+.section-todos,
+.section-tasks {
+  min-height: 41%;
+}
+
+.section-todos h3,
+.section-tasks h3,
+.section-active-todos h3 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.section-todos h5,
+.section-tasks h5 {
+  margin-top: 0 !important;
+  margin-bottom: 5px !important;
+}
+
+#todos-add .row {
+  margin-bottom: 0 !important;
+}
+
+.section-todos .row,
+.section-tasks .row {
+  margin-bottom: 0 !important;
+}
+
+.section-todos .btn,
+.section-tasks .btn {
+  width: 75px !important;
+  margin: 3px auto !important;
+}
+
+/* TODOS ACTIVE PAGE */
+
+.section-list-todos {
+  min-height: 94% !important;
+}
+
+.section-list-todos .btn-floating.btn-large {
+  margin: 10px 0 5px 0 !important;
+}
+
+.section-list-todos .row {
+  margin-bottom: 0 !important;
+}
+
+.section-list-todos h5,
+.section-list-todos h6 {
+  margin: 0 auto !important;
+}
+
+.todos-btn {
+  border: 2px solid #03a9f4 !important;
+  background-color: white !important;
+  color: #03a9f4;
+  border-radius: 5px !important;
+  box-shadow: unset;
+  --webkit-box-shadow--: unset;
+  width: 100% !important;
+}
+
+.todos-btn-active {
+  border-radius: 5px !important;
+  width: 100% !important;
+}
